@@ -709,6 +709,10 @@ table h4 {
     font-size: 1em;
   }
 
+  .nav {
+  text-align: center;
+}
+
   .primary-nav{
   font-size: .5em;
   text-align:center;
@@ -726,11 +730,24 @@ table h4 {
     font-size: 1em;
   }
 
+    .nav {
+  text-align: center;
+}
+
   .primary-nav{
   font-size: .4em;
   text-align:center;
   margin-left: 0;
+  
   min-width: 100%;
+}
+
+  .nav li {
+  margin: 0 20px;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
 
 }
 
