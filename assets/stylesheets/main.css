@@ -741,10 +741,11 @@ table h4 {
 
   .primary-footer small{
     text-align: center;
+    position: relative;
+    float:none;
     display:block;
     width:100%;
-    margin: auto;
-    float:none;
+    margin: 0 auto;
   }
 
  .nav li{
