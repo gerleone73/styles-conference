@@ -739,7 +739,7 @@ table h4 {
     font-size: 1em;
   }
 
-  .small{
+  .primary-footer .small{
     position: absolute;
     bottom: 10px;
     right:10px;
