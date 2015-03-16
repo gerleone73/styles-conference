@@ -740,6 +740,7 @@ table h4 {
   }
 
  .nav li{
+  clear:both;
   text-align: center;
   display:block;
   padding: 10px 0 10px 0;
