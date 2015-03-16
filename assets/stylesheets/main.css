@@ -569,6 +569,36 @@ table h4 {
   -ms-filter: sepia(.3);
 }
 
+
+
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  text-decoration: none;
+  font-weight: 600;
+  color: #e46a3c;
+  border-top: 1px solid #648880;
+  border-bottom: 1px solid #648880;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+  cursor: pointer;
+}
+
+.show-menu:hover{
+  color:#648880;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
 /*
   ========================================
   MEDIA QUERIES
@@ -699,7 +729,12 @@ table h4 {
 
 }
 
-@media all and (max-width: 400px){
+
+
+
+
+
+@media all and (max-width: 600px){
   .logo{
     font-size: 2.75em;
     margin-bottom: 0px;
@@ -709,26 +744,54 @@ table h4 {
     font-size: 1em;
   }
 
+   /*Make dropdown links appear inline*/
+ .primary-nav ul {
+    position: static;
+    display: none;
+  }
+
+   /*Make all menu links full width*/
+  .primary-nav ul li, li a {
+    width: 100%;
+  }
+
+  .primary-nav li:hover {
+
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+    display:block;
+  }
+
   .primary-nav li {
   text-align: center;
   display: block;
   padding: 10px 0 10px 0;
   margin: 0;
-  border-top: 1px solid #a9b2b9;
+  border-top: 1px solid #648880;
 }
 
 .primary-nav li:last-child{
-  border-bottom: 1px solid #a9b2b9;
+  border-bottom: 1px solid #648880;
+}
+
+.primary-nav li:first-child{
+  border-top: 0px;
 }
 
   .primary-nav{
-  font-size: 12px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 200;
   text-align:center;
   margin-left: 0;
   min-width: 100%;
 
 }
 }
+
+
+
 @media all and (max-width: 385px){
   .logo{
     font-size: 2.5em;
