@@ -740,8 +740,9 @@ table h4 {
   }
 
   .primary-footer small{
-   
     text-align: center;
+    clear: both;
+    display: inline-table;
   }
 
  .nav li{
