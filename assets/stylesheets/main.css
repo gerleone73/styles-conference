@@ -731,19 +731,19 @@ table h4 {
   }
 
     .nav {
-  text-align: center;
+  text-align: left;
 }
 
   .primary-nav{
   font-size: .4em;
-  text-align:center;
+  text-align:left;
   margin-left: 0;
   
   min-width: 100%;
 }
 
   .nav li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 .nav li:last-child {
   margin-right: 0;
