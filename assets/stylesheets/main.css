@@ -709,7 +709,7 @@ table h4 {
     font-size: 1em;
   }
 
-  .nav li {
+  .primary-nav li {
   text-align: center;
   display: block;
   padding: 10px 0 10px 0;
@@ -717,7 +717,7 @@ table h4 {
   border-top: 1px solid #a9b2b9;
 }
 
-.nav li:last-child{
+.primary-nav li:last-child{
   border-bottom: 1px solid #a9b2b9;
 }
 
