@@ -720,6 +720,7 @@ table h4 {
   min-width: 100%;
 
 }
+}
 @media all and (max-width: 325px){
   .logo{
     font-size: 2.5em;
@@ -738,17 +739,14 @@ table h4 {
   font-size: .4em;
   text-align:left;
   margin-left: 0;
-  
   min-width: 100%;
 }
 
   .nav li {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 .nav li:last-child {
   margin-right: 0;
-}
-
 }
 
 }
