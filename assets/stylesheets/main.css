@@ -739,25 +739,7 @@ table h4 {
     font-size: 1em;
   }
 
-    .nav {
-  text-align: left;
-}
-
-  .primary-nav{
-  font-size: 12px;
-  text-align:left;
-  margin-left: 0;
-  min-width: 100%;
-
-}
-
-  .nav li {
-  margin: 0 10px;
-  display: block;
-}
-.nav li:last-child {
-  margin-right: 0;
-}
+ 
 
 }
 
