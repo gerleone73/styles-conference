@@ -740,9 +740,8 @@ table h4 {
   }
 
   .primary-footer small{
-    position: absolute;
-    bottom: 10px;
-    right:10px;
+   
+    text-align: center;
   }
 
  .nav li{
