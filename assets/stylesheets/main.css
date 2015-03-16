@@ -56,7 +56,8 @@ table {
 
 body {
    background: #343434;
-  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;.
+
    letter-spacing: 0.4px;
    word-spacing: 2px;
   color: #a9b2b9;
@@ -565,8 +566,18 @@ table h4 {
   ========================================
 */
 
-@media all and (max-width: 720px) {
-  body, html { overflow-x:hidden; }
+
+
+
+@media all and (max-width: 880px) {
+  body, html { 
+    overflow-x:hidden; 
+  }
+
+.primary-nav, .tagline{
+  clear:both;
+  text-align: left;
+}
 
 .col-1-3,
 .col-2-3 {
@@ -581,6 +592,7 @@ table h4 {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 
 .table{
   width:100%;
@@ -597,17 +609,21 @@ table h4 {
     padding-right: 20px;
   }
 .nav{
-  text-align: left;
   font-size: .7em
 }
 
 table {
   margin-bottom: 22px;
-  width: 100%;
+  max-width: 300px;
+  margin-left:100px;
+}
 
+.info{
+  font-size: 12px;
+  line-height: 16px
 }
 table h4{
-  font-size: .75em;
+  font-size: 1em;
 }
 table:last-child {
   margin-bottom: 0;
@@ -623,14 +639,14 @@ th {
   width: 20%;
 }
 td {
-  width: 40%;
+  max-width: 40px;
 }
 thead {
   line-height: 22px;
 }
 thead th {
   color: #648880;
-  font-size: 12px;
+  font-size: 14px;
 }
 tbody th {
   color: #a9b2b9;
@@ -642,6 +658,7 @@ tbody th {
 tbody td {
   border-top: 1px solid #648880;
   padding-top: 11px;
+  max-width: 60px;
 }
 tbody td:first-of-type {
   padding-right: 8px;
@@ -663,50 +680,8 @@ table h4 {
   color: #a9b2b9;
 }
 
-table {
-  margin-bottom: 44px;
-  width: 100%;
-
-}
-table:last-child {
-  margin-bottom: 0;
-}
-th,
-td {
-  padding-bottom: 12px;
-  vertical-align: top;
-}
-th {
-  padding-right: 22px;
-  text-align: right;
-  width: 20%;
-}
-td {
-  width: 40%;
-}
-thead {
-  line-height: 22px;
-}
-thead th {
-  color: #648880;
-  font-size: 12px;
-}
-tbody th {
-  color: #a9b2b9;
-  font-size: 12px;
-  font-weight: 400;
-  padding-top: 22px;
-  text-transform: uppercase;
-}
-tbody td {
-  border-top: 1px solid #648880;
-  padding-top: 21px;
-}
-tbody td:first-of-type {
-  padding-right: 15px;
-}
-tbody td:last-of-type {
-  padding-left: 15px;
+.primary-footer small{
+  font-size: 10px;
 }
   
 
