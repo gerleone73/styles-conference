@@ -696,7 +696,26 @@ table h4 {
 .primary-footer small{
   font-size: 10px;
 }
-  
+
+}
+
+@media all and (max-width: 400px){
+  .logo{
+    font-size: 2.75em;
+    margin-bottom: 0px;
+  }
+
+  .tagline{
+    font-size: 1em;
+  }
+
+  .primary-nav{
+  font-size: .6em;
+  text-align:left;
+  margin-left: 0;
+  min-width: 100%;
+
+}
 
 }
 
