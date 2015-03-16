@@ -741,6 +741,8 @@ table h4 {
 
   .primary-footer small{
     text-align: center;
+    display:block;
+    width:100%;
     margin: auto;
     float:none;
   }
