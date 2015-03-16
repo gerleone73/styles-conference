@@ -716,6 +716,23 @@ table h4 {
   min-width: 100%;
 
 }
+@media all and (max-width: 325px){
+  .logo{
+    font-size: 2.5em;
+    margin-bottom: 0px;
+  }
+
+  .tagline{
+    font-size: 1em;
+  }
+
+  .primary-nav{
+  font-size: .4em;
+  text-align:center;
+  margin-left: 0;
+  min-width: 100%;
+
+}
 
 }
 
