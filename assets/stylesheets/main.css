@@ -137,11 +137,12 @@ body {
 */
 
 .row {
-  
-  border-bottom: 1px solid #7FB6AA;
+
+  border-bottom: 1px solid rgba(127, 182, 161, .3);
    background:#303030;
   min-width: 100%;
   padding: 66px 0 44px 0;
+  margin-top: -40px;
 }
 
 /*
@@ -250,7 +251,7 @@ p a {
 
 .btn-default {
   color:#e46a3c;
-  background: linen;
+  background: #303030;
   padding: 11px 30px;
   font-size: 14px;
  
@@ -343,9 +344,7 @@ p a {
 
 }
 
-.row{
-  margin-top: -40px;
-}
+
 
 .hero h2 {
   font-size: 36px;
