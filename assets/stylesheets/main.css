@@ -52,12 +52,16 @@ table {
   ========================================
 */
 
+html {
 
+text-rendering: optimizeLegibility !important;
+}
+
+/* 343434; ORIGINAL COLOR */
 
 body {
-   background: #343434;
+   background:#303030;
   text-rendering: geometricPrecision;.
-
    letter-spacing: 0.4px;
    word-spacing: 2px;
   color: #a9b2b9;
@@ -134,8 +138,8 @@ body {
 
 .row {
   
-  border-bottom: 1px solid #648880;
-   background:#343434;
+  border-bottom: 1px solid #7FB6AA;
+   background:#303030;
   min-width: 100%;
   padding: 66px 0 44px 0;
 }
@@ -174,7 +178,7 @@ h5 {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  color:#648880;
+  color:#7FB6AA;
 }
 
 p{
@@ -246,7 +250,7 @@ p a {
 
 .btn-default {
   color:#e46a3c;
-  background: #343434;
+  background: linen;
   padding: 11px 30px;
   font-size: 14px;
  
@@ -278,7 +282,7 @@ p a {
 .tagline {
   margin: 66px 0 22px 0;
   text-align: right;
-  color:#648880;
+  color:#7FB6AA;
 }
 
 .primary-nav {
@@ -303,7 +307,7 @@ p a {
 }
 .primary-footer small {
   float: left;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 /*
@@ -345,7 +349,7 @@ p a {
 
 .hero h2 {
   font-size: 36px;
-  color:#648880;
+  color:#7FB6AA;
   font-weight: 100;
 }
 
@@ -510,7 +514,7 @@ thead {
   line-height: 44px;
 }
 thead th {
-  color: #648880;
+  color: #7FB6AA;
   font-size: 24px;
 }
 tbody th {
@@ -521,7 +525,7 @@ tbody th {
   text-transform: uppercase;
 }
 tbody td {
-  border-top: 1px solid #648880;
+  border-top: 1px solid #7FB6AA;
   padding-top: 21px;
 }
 tbody td:first-of-type {
@@ -569,7 +573,11 @@ table h4 {
   -ms-filter: sepia(.3);
 }
 
-
+/*
+  ========================================
+  RESPONSIVE MENU + media query 
+  ========================================
+*/
 
 
 /*Style 'show menu' label button and hide it by default*/
@@ -577,8 +585,8 @@ table h4 {
   text-decoration: none;
   font-weight: 600;
   color: #e46a3c;
-  border-top: 1px solid #648880;
-  border-bottom: 1px solid #648880;
+  border-top: 1px solid #7FB6AA;
+  border-bottom: 1px solid #7FB6AA;
   text-align: center;
   padding: 10px 0;
   display: none;
@@ -586,8 +594,28 @@ table h4 {
 }
 
 .show-menu:hover{
-  color:#648880;
+  color:#7FB6AA;
 }
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+20% { opacity: 0.2; }
+40% { opacity: 0.4; }
+60% { opacity: 0.6; }
+80% { opacity: 0.8; }
+100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+20% { opacity: 0.2; }
+40% { opacity: 0.4; }
+60% { opacity: 0.6; }
+80% { opacity: 0.8; }
+100% { opacity: 1; }
+}
+
+
 
 /*Hide checkbox*/
 input[type=checkbox]{
@@ -597,6 +625,10 @@ input[type=checkbox]{
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
     display: block;
+    -webkit-animation-name: fadeIn;
+-webkit-animation-duration: 1s;
+animation-name: fadeIn;
+animation-duration: 1s;
 }
 
 /*
@@ -699,7 +731,7 @@ tbody th {
   text-transform: uppercase;
 }
 tbody td {
-  border-top: 1px solid #648880;
+  border-top: 1px solid #7FB6AA;
   padding-top: 11px;
   max-width: 60px;
 }
@@ -768,11 +800,11 @@ table h4 {
   display: block;
   padding: 10px 0 10px 0;
   margin: 0;
-  border-top: 1px solid #648880;
+  border-top: 1px solid #7FB6AA;
 }
 
 .primary-nav li:last-child{
-  border-bottom: 1px solid #648880;
+  border-bottom: 1px solid #7FB6AA;
 }
 
 .primary-nav li:first-child{
