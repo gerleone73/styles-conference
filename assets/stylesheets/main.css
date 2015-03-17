@@ -46,26 +46,27 @@ table {
   border-spacing: 0;
 }
 
+
+
 /*
   ========================================
   Custom styles
   ========================================
 */
 
-html {
-
-text-rendering: optimizeLegibility !important;
+html, html a{
+    -webkit-font-smoothing: antialiased;
+    
 }
 
 /* 343434; ORIGINAL COLOR */
 
 body {
    background:#303030;
-  text-rendering: geometricPrecision;.
-   letter-spacing: 0.4px;
-   word-spacing: 2px;
-  color: #a9b2b9;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   letter-spacing: 0.5px;
+   word-spacing: px;
+  color: linen;
+  font: normal 16px/22px "latolight", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } /* 16px/22px = font size line height
 
 /*
@@ -177,17 +178,17 @@ h4 {
 
 h5 {
   font-size: 14px;
-  font-weight: 400;
+  font-family: 'latoregular';
   text-transform: uppercase;
   color:#7FB6AA;
 }
 
 p{
-  font-weight: 300;
+  font-family:'latolight';
 }
 
 strong {
-  font-weight: 400;
+  font-family: 'latobold';
 }
 cite,
  em {
@@ -205,7 +206,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
+  color: linen;
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
@@ -218,7 +219,7 @@ p a {
 
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #a9b2b9;
+  color: linen;
 }
 
 
@@ -245,8 +246,8 @@ p a {
 }
 
 .btn-alt:hover {
-  border: 1px solid #a9b2b9;
-  color: #a9b2b9;
+  border: 1px solid linen;
+  color: linen;
 }
 
 .btn-default {
@@ -257,8 +258,8 @@ p a {
  
 }
 .btn-default:hover {
- border: 1px solid #a9b2b9;
-  color: #a9b2b9;
+ border: 1px solid linen;
+  color: linen;
 }
 
 /*
@@ -273,7 +274,7 @@ p a {
   border-top: 10px solid #e46a3c;
   float: left;
   font-size: 48px;
-  font-weight: 900;
+  font-family: 'latoheavy';
   letter-spacing: .95px;
   line-height: 44px;
   padding: 30px 0 22px 0;
@@ -288,7 +289,7 @@ p a {
 
 .primary-nav {
   font-size: 14px;
-  font-weight: 300;
+  font-family:'latoregular';
   letter-spacing: .5px;
   text-transform: uppercase;
 }
@@ -308,7 +309,7 @@ p a {
 }
 .primary-footer small {
   float: left;
-  font-weight: 200;
+  font-family: 'latolight';
 }
 
 /*
@@ -337,7 +338,7 @@ p a {
 */
 
 .hero {
-  color: #a9b2b9;
+  color: linen;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
@@ -349,18 +350,18 @@ p a {
 .hero h2 {
   font-size: 36px;
   color:#7FB6AA;
-  font-weight: 100;
+  font-family: 'latolight';
 }
 
 .hero p {
   font-size: 24px;
-  font-weight: 100;
-  line-height: 1.5em;
+  font-family: 'latolight';
+    line-height: 1.5em;
   padding-bottom: 20px;
 }
 
 .teaser a:hover h3 {
-  color: #a9b2b9;
+  color: linen;
 }
 
 .teaser img {
@@ -387,7 +388,7 @@ p a {
   
   border-radius: 5px;
   margin-top: 66px;
-  font-weight: 100;
+  font-family:'latolight';
   text-align: center;
 }
 
@@ -437,9 +438,9 @@ textarea {
 }
 
 .register-group label {
-  color: #a9b2b9;
+  color: linen;
   cursor: pointer;
-  font-weight: 400;
+  font-family: 'latoregular';
 }
 .register-group input,
 .register-group select,
@@ -472,8 +473,8 @@ textarea {
 .lead p{
   font-size: 24px;
   line-height: 1.5em;
-  color: #a9b2b9;
-  font-weight: 100;
+  color: linen;
+ font-family: 'latolight';
   padding-bottom: 0px;
   
 }
@@ -481,7 +482,7 @@ textarea {
 .lead h1{
   padding-top: 22px;
   font-size: 36px;
-  font-weight: 100;
+ font-family: 'latolight';
 }
 
 /*
@@ -519,9 +520,9 @@ thead th {
   font-size: 24px;
 }
 tbody th {
-  color: #a9b2b9;
+  color: linen;
   font-size: 14px;
-  font-weight: 400;
+ font-family: 'latoregular';
   padding-top: 22px;
   text-transform: uppercase;
 }
@@ -546,7 +547,7 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: #a9b2b9;
+  color: linen;
 }
 
 /*
@@ -584,8 +585,8 @@ table h4 {
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
   text-decoration: none;
-  font-weight: 600;
-  color: #e46a3c;
+  font-family: 'latobold';
+  color: #7FB6AA;
   border-top: 1px solid #7FB6AA;
   border-bottom: 1px solid #7FB6AA;
   text-align: center;
@@ -595,7 +596,7 @@ table h4 {
 }
 
 .show-menu:hover{
-  color:#7FB6AA;
+  color: linen;
 }
 
 @-webkit-keyframes fadeIn {
@@ -725,9 +726,9 @@ thead th {
   font-size: 14px;
 }
 tbody th {
-  color: #a9b2b9;
+  color: linen;
   font-size: 12px;
-  font-weight: 400;
+  font-family: 'latoregular';
   padding-top: 11px;
   text-transform: uppercase;
 }
@@ -753,7 +754,7 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: #a9b2b9;
+  color: linen;
 }
 
 .primary-footer small{
@@ -800,6 +801,7 @@ table h4 {
   text-align: center;
   display: block;
   padding: 10px 0 10px 0;
+  font-family: 'latoregular';
   margin: 0;
   border-top: 1px solid #7FB6AA;
 }
@@ -815,7 +817,7 @@ table h4 {
   .primary-nav{
   font-size: 18px;
   line-height: 24px;
-  font-weight: 200;
+  font-family: 'latoregular';
   text-align:center;
   margin-left: 0;
   min-width: 100%;
