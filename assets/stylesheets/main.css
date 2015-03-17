@@ -379,6 +379,8 @@ p a {
 */
 
 .speaker {
+  padding-top: 44px;
+  border-top: 1px solid rgba(127, 182, 161, .1);
   margin-bottom: 44px;
 }
   
