@@ -646,7 +646,66 @@ animation-duration: 1s;
   MEDIA QUERIES
   ========================================
 */
+@media all and (max-width: 1220px){
 
+  .primary-nav, .tagline{
+  clear:both;
+  text-align: left;
+}
+
+.row{
+  min-width:100%;
+  
+  padding-left: 0;
+}
+
+   /*Make dropdown links appear inline*/
+ .primary-nav ul {
+    position: static;
+    display: none;
+  }
+
+   /*Make all menu links full width*/
+  .primary-nav ul li, li a {
+    width: 100%;
+  }
+
+  .primary-nav li:hover {
+
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+    display:block;
+  }
+
+  .primary-nav li {
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px 0;
+  font-family: 'latoregular';
+  margin: 0;
+  border-top: 1px solid #7FB6AA;
+}
+
+.primary-nav li:last-child{
+  border-bottom: 1px solid #7FB6AA;
+}
+
+.primary-nav li:first-child{
+  border-top: 0px;
+}
+
+  .primary-nav{
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'latoregular';
+  text-align:center;
+  margin-left: 0;
+  min-width: 100%;
+
+}
+
+}
 
 
 
@@ -693,9 +752,7 @@ animation-duration: 1s;
     padding-left: 20px;
     padding-right: 20px;
   }
-.nav{
-  font-size: .7em
-}
+
 
 table {
   margin-bottom: 22px;
