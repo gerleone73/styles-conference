@@ -584,6 +584,31 @@ table h4 {
 
 /*
   ========================================
+  Back to Top
+  ========================================
+*/
+
+
+
+a.back-to-top {
+  display: none;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 30px;
+  bottom: 30px;
+  background: #e46a3c url('../images/arrow-up-dark.png') no-repeat center;
+  padding:25px;
+}
+
+a.back-to-top:hover {
+ background:#7FB6AA url('../images/arrow-up-dark.png') no-repeat center;
+}
+
+/*
+  ========================================
   RESPONSIVE MENU + media query 
   ========================================
 */

@@ -10,6 +10,9 @@
      <link rel ="stylesheet" type ="text/css" href="assets/fonts/fonts.css">
      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     
   </head>
 
@@ -421,6 +424,28 @@
       </nav>
 
     </footer>
+
+          <script type="text/javascript">
+// create the back to top button
+$('.primary-footer').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+var amountScrolled = 300;
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > amountScrolled) {
+    $('a.back-to-top').fadeIn('slow');
+  } else {
+    $('a.back-to-top').fadeOut('slow');
+  }
+});
+
+$('a.back-to-top').click(function() {
+  $('body').animate({
+    scrollTop: 0
+  }, 'fast');
+  return false;
+});
+</script>
 
   </body>
 </html>
