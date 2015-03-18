@@ -785,6 +785,11 @@ table h4 {
     margin-bottom: 0px;
   }
 
+  .row{
+    min-width: 380px;
+    margin-left:0;
+  }
+
   .tagline{
     font-size: 1em;
   }
@@ -835,12 +840,13 @@ table h4 {
 
 }
 
-.col-1-3,
+.grid, .col-1-3,
 .col-2-3 {
   display: block;
-  width: 300px;
-  margin-left: -2em;
-  padding: 1em 0 1em 0;
+  min-width: 300px;
+  padding-left: 0em ;
+  padding-right: 0em;
+  
   
 }
 }
@@ -864,6 +870,9 @@ table h4 {
     display:block;
     width:100%;
     margin: 0 auto;
+  }
+  .row{
+    min-width: 380px;
   }
 
  .nav li{
