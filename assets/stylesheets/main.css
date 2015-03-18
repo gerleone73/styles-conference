@@ -588,7 +588,8 @@ table h4 {
 .show-menu {
   text-decoration: none;
   font-family: 'latobold';
-  color: #7FB6AA;
+  letter-spacing: .5em;
+  color:linen;
   border-top: 1px solid #7FB6AA;
   border-bottom: 1px solid #7FB6AA;
   text-align: center;
@@ -598,7 +599,7 @@ table h4 {
 }
 
 .show-menu:hover{
-  color: linen;
+  color: #7FB6AA;
 }
 
 @-webkit-keyframes fadeIn {
@@ -648,9 +649,25 @@ animation-duration: 1s;
 */
 @media all and (max-width: 1220px){
 
+  .teaser img{
+
+    margin-bottom: 3em;
+  }
+
+.teaser.col-1-3{
+  width:100%;
+  display:block;
+}
+
+  .teaser.col-1-3 img, h5, h3, p{
+    max-width: 70%;
+    margin: 1em auto;
+
+  }
+
   .primary-nav, .tagline{
   clear:both;
-  text-align: left;
+  
 }
 
 .row{
@@ -714,21 +731,32 @@ animation-duration: 1s;
     overflow-x:hidden; 
   }
 
+  .teaser.col-1-3 img, h5, h3, p{
+    max-width: 80%;
+    margin: 1em auto;
+  }
+
 .primary-nav, .tagline{
   clear:both;
-  text-align: left;
+  
 }
+
+  .tagline{
+    font-size: 1em;
+    min-width:100%;
+    text-align:center;
+  }
 
 .row{
   min-width:100%;
   
   padding-left: 0;
 }
-.col-1-3,
+.grid,.col-1-3,
 .col-2-3 {
   display: block;
-  width: 100%;
-  padding: 1em 0 1em 0;
+  min-width: 100%;
+  padding: 1em;
   
 }
 
@@ -756,7 +784,7 @@ animation-duration: 1s;
 
 table {
   margin-bottom: 22px;
-  max-width: 300px;
+  max-width: 100%;
  
 }
 
@@ -814,7 +842,7 @@ tbody td:only-of-type {
   padding-right: 0;
 }
 table a {
-  color: #888;
+  color: rgba(127, 182, 161, .9);
 }
 table h4 {
   margin-bottom: 0;
@@ -836,7 +864,13 @@ table h4 {
 
 
 
-@media all and (max-width: 600px){
+@media all and (max-width: 500px){
+
+  .teaser.col-1-3 img, h5, h3, p{
+    max-width: 100%;
+    margin: 1em auto;
+  }
+
   .logo{
     font-size: 2.75em;
     margin-bottom: 0px;
@@ -849,6 +883,8 @@ table h4 {
 
   .tagline{
     font-size: 1em;
+    width:100%;
+    text-align: center;
   }
 
    /*Make dropdown links appear inline*/
@@ -897,27 +933,24 @@ table h4 {
 
 }
 
-.grid, .col-1-3,
-.col-2-3 {
-  display: block;
-  min-width: 300px;
-  padding-left: 0em ;
-  padding-right: 0em;
-  
-  
-}
+
 }
 
 
 
-@media all and (max-width: 385px){
+@media all and (max-width: 410px){
   .logo{
     font-size: 2.5em;
     margin-bottom: 0px;
   }
 
+
+
   .tagline{
     font-size: 1em;
+    width:100%;
+    text-align:center;
+
   }
 
   .primary-footer small{
