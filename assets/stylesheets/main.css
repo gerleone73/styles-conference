@@ -597,8 +597,8 @@ a.back-to-top {
   text-indent: -9999px;
   position: fixed;
   z-index: 999;
-  right: 30px;
-  bottom: 30px;
+  right: 10px;
+  bottom: 10px;
   background: #e46a3c url('../images/arrow-up-dark.png') no-repeat center;
   padding:25px;
 }
