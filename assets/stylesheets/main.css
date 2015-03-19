@@ -1051,9 +1051,7 @@ table h4 {
     width:100%;
     margin: 0 auto;
   }
-  .row{
-    min-width: 380px;
-  }
+ 
 
  .nav li{
   clear:both;
