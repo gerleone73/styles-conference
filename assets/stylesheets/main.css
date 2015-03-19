@@ -56,6 +56,7 @@ table {
 
 html, html a{
     -webkit-font-smoothing: antialiased;
+
     
 }
 
@@ -66,7 +67,7 @@ body {
    letter-spacing: 0.5px;
    word-spacing: px;
   color: linen;
-  font: normal 16px/22px "latolight", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 16px/22px "latoregular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } /* 16px/22px = font size line height
 
 /*
@@ -209,7 +210,12 @@ a:hover {
   color: linen;
 }
 p a {
-  border-bottom: 1px solid #dfe2e5;
+  text-decoration: none;
+  font-family: 'latoregular';
+}
+
+p a:hover {
+  color:#7FB6AA;
 }
 
 .primary-header a,
@@ -385,13 +391,25 @@ p a {
   border-top: 1px solid rgba(127, 182, 161, .1);
   margin-bottom: 44px;
 }
+
+.speaker .col-2-3{
+  width:80%;
+}
+
+aside.col-1-3{
+  width:20%;
+}
   
 .speaker-info {
   
   border-radius: 5px;
   margin-top: 66px;
-  font-family:'latolight';
+  font-family:'latoregular';
   text-align: center;
+}
+
+.speaker-info a:hover{
+  color:#7FB6AA;
 }
 
 .speaker-info img {
@@ -400,6 +418,14 @@ p a {
   margin: -66px 0 22px 0;
   vertical-align: top;
  
+}
+
+
+
+
+
+cite{
+  font-family: 'latoregular';
 }
 
 
@@ -418,6 +444,16 @@ p a {
   -o-filter:  contrast(100%) sepia(.1);
   -ms-filter: contrast(100%) sepia(.1);
 }
+
+.saturate{
+    filter:  contrast(100%) sepia(.1);
+  -webkit-filter:  contrast(100%) sepia(.1);
+  -moz-filter: contrast(100%) sepia(.1);
+  -o-filter:  contrast(100%) sepia(.1);
+  -ms-filter: contrast(100%) sepia(.1);
+}
+
+
 
 /*
   ========================================
@@ -499,6 +535,7 @@ textarea {
 table {
   margin-bottom: 44px;
   width: 100%;
+  font-family: 'latoregular';
 
 }
 table:last-child {
@@ -523,6 +560,7 @@ thead {
 thead th {
   color: #7FB6AA;
   font-size: 24px;
+  font-family: 'latoregular';
 }
 tbody th {
   color: linen;
@@ -553,6 +591,8 @@ table h4 {
 }
 .schedule-offset {
   color: linen;
+  font-family: 'latoregular';
+
 }
 
 
@@ -580,6 +620,15 @@ table h4 {
   -moz-filter: sepia(.3);
   -o-filter: sepia(.3);
   -ms-filter: sepia(.3);
+}
+
+/*disable Google map scroll zoom effect*/
+.scrolloff{
+    pointer-events: none;   
+}
+
+.maps{
+  cursor: pointer;
 }
 
 /*
@@ -692,7 +741,7 @@ animation-duration: 1s;
   text-align: center;
 }
 
-tea
+
 
   .teaser.col-1-3 img{
   
@@ -789,13 +838,16 @@ tea
 .col-2-3 {
   display: block;
   min-width: 100%;
-  padding: 1em;
   
 }
 
 .teaser.col-1-3{
   width:100%;
   display:block;
+}
+
+.speaker-info{
+  padding-top: 3em;
 }
 
 
@@ -814,15 +866,20 @@ tea
     padding-right: 20px;
   }
 
+time{
+  font-size: 14px;
+  font-family: 'latoregular';
+}
 
 table {
   margin-bottom: 22px;
   max-width: 100%;
+    font-family: 'latoregular';
  
 }
 
 .info{
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px
 }
 table h4{
@@ -848,7 +905,7 @@ thead {
   line-height: 22px;
 }
 thead th {
-  color: #648880;
+  color: #7FB6AA;
   font-size: 14px;
   font-family: 'latoregular';
 }
@@ -887,7 +944,7 @@ table h4 {
 }
 
 .primary-footer small{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 }
