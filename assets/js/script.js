@@ -40,3 +40,9 @@ $('.teaser h3').hover(function(){
 
  console.log(image);
 });
+
+$('.light').on('click', function(){
+  console.log('clicked');
+  $('body').toggleClass('light')
+  $('.row').toggleClass('light');
+});
