@@ -1074,7 +1074,7 @@ table h4 {
 
 
 
-@media all and (max-width: 410px){
+@media all and (max-width: 410px) {
   .logo{
     font-size: 2.5em;
     margin-bottom: 0px;
@@ -1088,9 +1088,9 @@ table h4 {
   }
 
   .hero p{
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: -1em;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0em;
   }
 
   .tagline{
