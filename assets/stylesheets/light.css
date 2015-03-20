@@ -230,7 +230,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: orange;
+  color: #303030;
 }
 p a {
   text-decoration: none;
@@ -369,7 +369,7 @@ p a:hover {
 */
 
 .hero {
-  color: #7FB6AA;
+  color: #303030;
   line-height: 44px;
   margin-top:3em;
   padding: 0 80px 66px 80px;
@@ -381,7 +381,7 @@ p a:hover {
 
 .hero h2 {
   font-size: 36px;
-  color:#7FB6AA;
+  color:#303030;
   font-family: 'latolight';
 }
 
@@ -593,7 +593,7 @@ thead {
   line-height: 44px;
 }
 thead th {
-  color: #7FB6AA;
+  color: #303030;
   font-size: 24px;
   font-family: 'latoregular';
 }
@@ -625,7 +625,7 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: #7FB6AA;
+  color: #303030;
   font-family: 'latoregular';
 
 }
