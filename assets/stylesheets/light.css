@@ -63,7 +63,7 @@ html, html a{
 /* 343434; ORIGINAL COLOR */
 
 body {
-  background-color:white;
+  background-color:whitesmoke;
    letter-spacing: 0.5px;
   
   color: #303030;
@@ -381,13 +381,13 @@ p a:hover {
 
 .hero h2 {
   font-size: 36px;
-  color:#303030;
-  font-family: 'latolight';
+  color:#7FB6AA;
+  font-family: 'latoregular';
 }
 
 .hero p {
   font-size: 24px;
-  font-family: 'latolight';
+  font-family: 'latoregular';
     line-height: 1.5em;
   padding-bottom: 20px;
 }
@@ -549,7 +549,7 @@ textarea {
   font-size: 24px;
   line-height: 1.5em;
   color: #7FB6AA;
- font-family: 'latolight';
+ font-family: 'latoregular';
   padding-bottom: 0px;
   
 }
@@ -557,7 +557,7 @@ textarea {
 .lead h1{
   padding-top: 22px;
   font-size: 36px;
- font-family: 'latolight';
+ font-family: 'latoregular';
 }
 
 /*
@@ -593,7 +593,7 @@ thead {
   line-height: 44px;
 }
 thead th {
-  color: #303030;
+  color:#7FB6AA ;
   font-size: 24px;
   font-family: 'latoregular';
 }
@@ -625,7 +625,7 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: #303030;
+  color: #7FB6AA;
   font-family: 'latoregular';
 
 }
