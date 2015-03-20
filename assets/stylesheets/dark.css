@@ -77,9 +77,14 @@ body {
   ========================================
 */
 
-.light{
+.lightbg{
   background: white;
   color:#303030;
+}
+
+.dark_text{
+  color:#303030;
+
 }
 
 /*
