@@ -66,7 +66,7 @@ body {
   background-color:white;
    letter-spacing: 0.5px;
   
-  color: black;
+  color: #303030;
   font: normal 16px/22px "latoregular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } /* 16px/22px = font size line height
 
@@ -204,7 +204,7 @@ h5 {
   font-size: 14px;
   font-family: 'latoregular';
   text-transform: uppercase;
-  color:black;
+  color:#303030;
 }
 
 p{
@@ -964,7 +964,7 @@ thead th {
   font-family: 'latoregular';
 }
 tbody th {
-  color: linen;
+  color: #303030;
   font-size: 14px;
   font-family: 'latoregular';
   padding-top: 11px;
@@ -992,7 +992,7 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: linen;
+  color: #303030;
   font-size: 14px;
   font-family: 'latoregular';
 }
