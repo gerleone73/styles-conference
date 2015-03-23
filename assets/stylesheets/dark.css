@@ -274,13 +274,12 @@ p a:hover {
   right:20px;
     text-align: right;
   font-size: 12px;
-  font-family: 'latobold';
-  border-bottom: 1px solid whitesmoke;
-}
+  font-family: 'latoregular';
+  }
 
 #contrast-btn a:hover{
   color:#6C9B90;
-   border-bottom: 1px solid #6C9B90;
+   
 }
 
 .btn {
@@ -893,8 +892,8 @@ form {
   float: right;
   text-align: right;
   font-size: 10px;
-  font-family: 'latobold';
-  border-bottom: 1px solid #e46a3c;
+  font-family: 'latoregular';
+ 
 }
 
 

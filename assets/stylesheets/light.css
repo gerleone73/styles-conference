@@ -259,13 +259,12 @@ p a:hover {
   color:#303030;
     text-align: right;
   font-size: 12px;
-  font-family: 'latobold';
-  border-bottom: 1px solid #303030;
+  font-family: 'latoregular';
 }
 
 #contrast-btn a:hover{
   color:#6C9B90;
-   border-bottom: 1px solid #6C9B90;
+ 
 }
 
 
@@ -872,6 +871,22 @@ form {
   padding-top:2em;
 }
 
+
+ .fa {
+  padding-left: 5px;
+  font-size:14px;
+  font-weight: bold;
+}
+
+
+#contrast-btn a{
+  margin-top: 10px;
+  float: right;
+  text-align: right;
+  font-size: 10px;
+  font-family: 'latoregular';
+ 
+}
 
 
   .hero{
