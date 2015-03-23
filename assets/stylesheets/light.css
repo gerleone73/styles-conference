@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
@@ -238,7 +239,7 @@ p a {
 }
 
 p a:hover {
-  color:#7FB6AA;
+  color:#6C9B90;
 }
 
 .primary-header a,
@@ -248,7 +249,7 @@ p a:hover {
 
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #7FB6AA;
+  color: #6C9B90;
 }
 
 
@@ -258,6 +259,24 @@ p a:hover {
   Buttons
   ========================================
 */
+
+.fa {
+  padding-left: 5px;
+  font-size:16px;
+  font-weight: bold;
+}
+
+
+#contrast-btn a{
+  float: right;
+  position: absolute;
+  top: 10px;
+  right:20px;
+    text-align: right;
+  font-size: 12px;
+  font-family: 'latobold';
+  border-bottom: 1px solid #e46a3c;
+}
 
 .btn {
   border-radius: 5px;
@@ -276,8 +295,8 @@ p a:hover {
 }
 
 .btn-alt:hover {
-  border: 1px solid #7FB6AA;
-  color: #7FB6AA;
+  border: 1px solid #6C9B90;
+  color: #6C9B90;
 }
 
 .btn-default {
@@ -289,8 +308,8 @@ p a:hover {
  
 }
 .btn-default:hover {
- border: 1px solid #7FB6AA;
-  color: #7FB6AA;
+ border: 1px solid #6C9B90;
+  color: #6C9B90;
 }
 
 /*
@@ -315,7 +334,7 @@ p a:hover {
 .tagline {
   margin: 66px 0 22px 0;
   text-align: right;
-  color:#7FB6AA;
+  color:#6C9B90;
 }
 
 .primary-nav {
@@ -381,7 +400,7 @@ p a:hover {
 
 .hero h2 {
   font-size: 36px;
-  color:#7FB6AA;
+  color:#6C9B90;
   font-family: 'latoregular';
 }
 
@@ -393,7 +412,7 @@ p a:hover {
 }
 
 .teaser a:hover h3 {
-  color: #7FB6AA;
+  color:#6C9B90;
 }
 
 .teaser img {
@@ -440,7 +459,7 @@ aside.col-1-3{
 }
 
 .speaker-info a:hover{
-  color:#7FB6AA;
+  color:#6C9B90;
 }
 
 .speaker-info img {
@@ -510,7 +529,7 @@ textarea {
 
 
 .register-group label {
-  color: #7FB6AA;
+  color:#6C9B90;
   cursor: pointer;
   font-family: 'latoregular';
 }
@@ -548,7 +567,7 @@ textarea {
 .lead p{
   font-size: 24px;
   line-height: 1.5em;
-  color: #7FB6AA;
+  color:#6C9B90;
  font-family: 'latoregular';
   padding-bottom: 0px;
   
@@ -593,19 +612,19 @@ thead {
   line-height: 44px;
 }
 thead th {
-  color:#7FB6AA ;
+  color:#6C9B90 ;
   font-size: 24px;
   font-family: 'latoregular';
 }
 tbody th {
-  color: #7FB6AA;
+  color: #6C9B90;
   font-size: 14px;
  font-family: 'latoregular';
   padding-top: 22px;
   text-transform: uppercase;
 }
 tbody td {
-  border-top: 1px solid #7FB6AA;
+  border-top: 1px solid #6C9B90;
   padding-top: 21px;
 }
 tbody td:first-of-type {
@@ -619,13 +638,18 @@ tbody td:only-of-type {
   padding-right: 0;
 }
 table a {
-  color: rgba(127, 182, 161, .9);
+  color: #6C9B90;
 }
+
+table a:hover {
+  color: #888;
+}
+
 table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: #7FB6AA;
+  color: #6C9B90;
   font-family: 'latoregular';
 
 }
@@ -688,7 +712,7 @@ a.back-to-top {
 }
 
 a.back-to-top:hover {
- background:#7FB6AA url('../images/arrow-up-dark.png') no-repeat center;
+ background:#6C9B90 url('../images/arrow-up-dark.png') no-repeat center;
 }
 
 /*
@@ -703,9 +727,9 @@ a.back-to-top:hover {
   text-decoration: none;
   font-family: 'latobold';
   letter-spacing: .5em;
-  color:#7FB6AA;
-  border-top: 1px solid #7FB6AA;
-  border-bottom: 1px solid #7FB6AA;
+  color:#6C9B90;
+  border-top: 1px solid #6C9B90;
+  border-bottom: 1px solid #6C9B90;
   text-align: center;
   padding: 10px 0;
   display: none;
@@ -713,7 +737,7 @@ a.back-to-top:hover {
 }
 
 .show-menu:hover{
-  color:#7FB6AA;
+  color:#6C9B90;
 }
 
 @-webkit-keyframes fadeIn {
@@ -819,11 +843,11 @@ animation-duration: 1s;
   padding: 10px 0 10px 0;
   font-family: 'latoregular';
   margin: 0;
-  border-top: 1px solid #7FB6AA;
+  border-top: 1px solid #6C9B90;
 }
 
 .primary-nav li:last-child{
-  border-bottom: 1px solid #7FB6AA;
+  border-bottom: 1px solid #6C9B90;
 }
 
 .primary-nav li:first-child{
@@ -959,7 +983,7 @@ thead {
   line-height: 22px;
 }
 thead th {
-  color: #7FB6AA;
+  color: #6C9B90;
   font-size: 14px;
   font-family: 'latoregular';
 }
@@ -971,7 +995,7 @@ tbody th {
   text-transform: uppercase;
 }
 tbody td {
-  border-top: 1px solid #7FB6AA;
+  border-top: 1px solid #6C9B90;
   padding-top: 11px;
   max-width: 60px;
 }
@@ -1053,11 +1077,11 @@ table h4 {
   padding: 10px 0 10px 0;
   font-family: 'latoregular';
   margin: 0;
-  border-top: 1px solid #7FB6AA;
+  border-top: 1px solid #6C9B90;
 }
 
 .primary-nav li:last-child{
-  border-bottom: 1px solid #7FB6AA;
+  border-bottom: 1px solid #6C9B90;
 }
 
 .primary-nav li:first-child{
