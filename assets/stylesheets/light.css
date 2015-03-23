@@ -894,8 +894,13 @@ form {
   }
 
   .teaser.col-1-3 img{
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   }
+
+  .teaser.col-1-3 p{
+  padding-bottom: 1em;
+  }
+
 
 .primary-nav, .tagline{
   clear:both;
