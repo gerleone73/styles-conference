@@ -791,11 +791,15 @@ animation-duration: 1s;
 }
 
 
-
   .teaser.col-1-3 img{
-  
-
+margin-bottom: 2em;
   }
+
+  .teaser.col-1-3 p{
+  padding-bottom: 2em;
+  }
+
+ 
 
   .primary-nav, .tagline{
   clear:both;
@@ -893,13 +897,7 @@ form {
      padding: 0 20px 16px 20px;
   }
 
-  .teaser.col-1-3 img{
-  padding-bottom: 1em;
-  }
-
-  .teaser.col-1-3 p{
-  padding-bottom: 2em;
-  }
+ 
 
 
 .primary-nav, .tagline{
