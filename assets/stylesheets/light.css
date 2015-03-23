@@ -72,23 +72,7 @@ body {
 } /* 16px/22px = font size line height
 
 
-/*
-  ========================================
-  SWITCH
-  ========================================
-*/
 
-.lightbg{
-  background: white;
-  color:#303030;
-}
-
-.dark_text{
-  color:#303030;
-
-}
-
-/*
   ========================================
   Grid
   ========================================
@@ -262,7 +246,7 @@ p a:hover {
 
 .fa {
   padding-left: 5px;
-  font-size:16px;
+  font-size:18px;
   font-weight: bold;
 }
 
@@ -272,11 +256,18 @@ p a:hover {
   position: absolute;
   top: 10px;
   right:20px;
+  color:#303030;
     text-align: right;
   font-size: 12px;
   font-family: 'latobold';
-  border-bottom: 1px solid #e46a3c;
+  border-bottom: 1px solid #303030;
 }
+
+#contrast-btn a:hover{
+  color:#6C9B90;
+   border-bottom: 1px solid #6C9B90;
+}
+
 
 .btn {
   border-radius: 5px;
